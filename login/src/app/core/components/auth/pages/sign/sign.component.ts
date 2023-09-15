@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-sign',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class SignComponent {
 
+  public formAuth: FormGroup = this.formBuilder.group({
+    email: [ '', [Validators.required, Validators.email]],
+    password: [ '', [Validators.required]],
+  });
+  constructor(private formBuilder: FormBuilder){}
+
+  public submitForm(){
+    if(this.formAuth.valid){
+      console.log(this.formAuth);
+    }
+  }
 }
