@@ -2,12 +2,13 @@
 ---
 **Projeto Login com framework Angular com rotas aninhadas e route guards**
 
-![Pagina Login](https://github.com/PedroHenrique1s/Projeto-Login/assets/122485446/4819821b-4886-4025-a949-7b7a96e982fd)
+![image](https://github.com/PedroHenrique1s/Projeto-Login/assets/122485446/f8e3fb90-7e24-4f70-a0fb-30733f606652)
 
 ---
 **Acesso após o Login**
 
-![Logado](https://github.com/PedroHenrique1s/Projeto-Login/assets/122485446/a1d5b99d-51c5-4ad5-b40a-99fbb17d09b5)
+![image](https://github.com/PedroHenrique1s/Projeto-Login/assets/122485446/f081b515-cea5-4c6a-b5c3-7711b5a53bbd)
+
 
 ---
 Programa realizado com demais linguagens 
