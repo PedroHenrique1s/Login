@@ -7,17 +7,17 @@
 ---
 **Acesso após o Login**
 
-![image](https://github.com/PedroHenrique1s/Projeto-Login/assets/122485446/a31f47d9-ffb6-442e-a25b-1dab9d22aece)
+![image](https://github.com/PedroHenrique1s/Projeto-Login/assets/122485446/a1d5b99d-51c5-4ad5-b40a-99fbb17d09b5)
 
 ---
 Programa realizado com demais linguagens 
 
+* HTML
+* SCSS
+* Typescript
 * Angular
    - Componentes
    - Output e Input
    - Services, subscribe,Observable
    - Route Guards
    - Rota aninhadas 
-* HTML
-* SCSS
-* Typescript
