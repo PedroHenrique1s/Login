@@ -13,6 +13,9 @@ export class SignComponent {
     email: [ '', [Validators.required, Validators.email]],
     password: [ '', [Validators.required]],
   });
+
+  public msgError!: string;
+
   constructor(
     private formBuilder: FormBuilder,
     private authService:  AuthService
@@ -26,7 +29,7 @@ export class SignComponent {
         password: this.formAuth.value.password,
       }).subscribe({
         next: (res) => res,
-        error: (e) => e,
+        error: (e) => (this.msgError = e),
       })
     }
   }
